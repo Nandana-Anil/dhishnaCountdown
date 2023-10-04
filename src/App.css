@@ -1,38 +1,103 @@
-.App {
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@200;300&family=Raleway:wght@100&family=Roboto:wght@100&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@600&family=Josefin+Slab:wght@200;300&family=Raleway:wght@100&family=Roboto:wght@100&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@600;900&family=Josefin+Slab:wght@200;300&family=Raleway:wght@100&family=Roboto:wght@100&display=swap');
+
+
+  @font-face {
+    font-family: 'segment';
+    src: url("./fonts/segment.ttf") format('truetype');
+    /* You can specify additional font formats (e.g., woff, woff2) for better browser compatibility */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+    font-family: 'thunder';
+    src: url("./fonts/Thunder-BlackLCItalic.ttf") format('truetype');
+    /* You can specify additional font formats (e.g., woff, woff2) for better browser compatibility */
+}
+@font-face {
+    font-family: 'thunder-light';
+    src: url("./fonts/Thunder-ExtraLightLCItalic.ttf") format('truetype');
+    /* You can specify additional font formats (e.g., woff, woff2) for better browser compatibility */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+    font-family: 'satoshi';
+    src: url("./fonts/Satoshi-LightItalic.ttf") format('truetype');
+    /* You can specify additional font formats (e.g., woff, woff2) for better browser compatibility */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+
+
+body{
+    background-image: url(./assets/Bg1.png); 
+    background-size: 100% 100vh; 
+    background-repeat: no-repeat; 
+    height: fit-content;
+}
+p{
+    font-family: 'thunder-light';
+
+}
+.line{
+    font-family: 'thunder-light';
+}
+ div p:first-child{
+    font-family: "thunder";
+    letter-spacing: 8px;
+    color: #fff1f1;
+    text-shadow: 1px 1px #000000, 2px 2px #000000, 3px 3px #c83d02, 4px 4px #c83d02, 5px 5px rgb(255, 145, 0), 6px 6px rgb(255, 145, 0);
+    /* text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;  */
+  /*   text-shadow: 0 0 10px #fff, 0 0 20px #a1ec3f,0 0 20px #cd53f7, 0 0 10px #6a8ff9, 0 0 40px #5ba5f1; */
+    /* background-image: url(./assets/btext.jpeg);  */
+    /* background-image: linear-gradient(to left, rgba(131,58,180,1) 0%, rgb(224, 107, 48) 50%, rgba(252,176,69,1) 100%);*/
+    /* background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;   */
+    /* color: linear-gradient(to right,#d81dad, #e65b0b); */
+ } 
+
+h3{
+    font-family: 'Josefin Slab', serif;
 }
 
-.App-link {
-  color: #61dafb;
+h2{
+    font-family: 'satoshi', serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1{
+    font-family: 'Gabarito', cursive;
+    
 }
+
+  
+/* p {
+    font-family: 'Gabarito', cursive;
+    background-image: linear-gradient(
+    to right,
+    #e00d73 20%,
+    rgba(131, 58, 180, 1) 0%,
+    #e00d73 20%,
+    rgb(237, 106, 40) 50%,
+    #e00d73 80%, 
+    rgba(252, 176, 69, 1) 100%
+);
+    background-size: 200% 100%; 
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: shimmer 1s linear infinite; 
+}  */
+
+
+  /* Default styles for the background image */
+
+  
+
