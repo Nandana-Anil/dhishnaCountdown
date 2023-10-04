@@ -2,8 +2,8 @@ import React, {useRef, useState, useEffect} from 'react';
 import './App.css';
 import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
-import Bg1 from './assets/Bg1.png';
-import logo2 from './assets/logo2.png';
+import Bg1 from './assets/Bg1.webp';
+import logo2 from './assets/logo2.webp';
 
 function App() {
   const [timerDays,setTimerDays] = useState('00');
@@ -50,38 +50,38 @@ function App() {
   });
 
   return (
-    <div id="home" className='md:w-full max-h-screen '>
-      <div className='flex items-center justify-center md:mt-9'>
-        <img src={logo2} alt='/' className='md:w-1/4  p-8 '/>
+    <div id="home" className='md:w-full h-auto min-h-screen bg-cover bg-no-repeat' style={{ backgroundImage: `url(${Bg1})` }}>
+      <div className='flex items-center justify-center'>
+        <img src={logo2} alt='/' className='md:w-[30%]  p-8 '/>
       </div>
       {/* <div className='text-4xl ml-[315px]'>
         <h1 className='font-bold'>AWESOMENESS IN</h1>
       </div>  */}
       
-      <div id='clock' className='flex flex-wrap items-center justify-center gap-8 flex-col md:flex-row md:mt-14'>
+      <div id='clock' className='flex flex-wrap items-center justify-center gap-8 flex-col md:flex-row md:mt-14 -mt-10'>
         <div class="hi" className=' font-bold  flex flex-col mt-1 md:mt-0'>
         <p className='text-7xl md:text-9xl '>{("0"+timerDays).slice(-2)}</p>
           <p className='text-white  text-xl pl-1'>DAYS</p>
         </div>
         <p class="line" className='text-9xl text-white hidden md:block'>/</p>
         <div className='font-bold  flex flex-col '>
-          <p className='text-7xl md:text-9xl'>{("0"+timerHours).slice(-2)}</p>
+          <p className='text-7xl md:text-9xl -mt-6 md:mt-0'>{("0"+timerHours).slice(-2)}</p>
           <p className='text-white  text-xl  pl-1'>HOURS</p>
         </div>
         <p class="line" className='text-9xl text-white hidden md:block'>/</p>
 
         <div className=' font-bold  flex flex-col'>
-          <p className='text-7xl md:text-9xl'>{("0"+timerMinutes).slice(-2)}</p>
+          <p className='text-7xl md:text-9xl -mt-6 md:mt-0'>{("0"+timerMinutes).slice(-2)}</p>
           <p className='text-white text-xl  pl-1'>MINUTES</p>
         </div>
         <p class="line" className='text-9xl text-white hidden md:block'>/</p>
 
         <div className=' font-bold   flex flex-col'>
-          <p className='text-7xl md:text-9xl'>{("0"+timerSeconds).slice(-2)}</p>
+          <p className='text-7xl md:text-9xl -mt-6 md:mt-0'>{("0"+timerSeconds).slice(-2)}</p>
           <p className='text-white text-xl  pl-1'>SECONDS</p>
         </div>
       </div>
-      <div className='text-white flex items-end justify-center text-center font-bold md:mt-[180px] mt-14'>
+      <div className='text-white flex items-end justify-center text-center font-bold md:mt-[180px] mt-10'>
         <h2 className='text-1xl'>The anticipation is electric, the countdown is on<br></br><h2>Stay charged !</h2></h2>
       </div>
       {/* <div className='flex items-center justify-center mt-[80px]'>

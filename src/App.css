@@ -35,12 +35,13 @@
 
 
 
-body{
-    background-image: url(./assets/Bg1.png); 
-    background-size: 100% 100vh; 
-    background-repeat: no-repeat; 
-    height: fit-content;
-}
+/* body{
+    height: 100vh;
+    background-image: url(./assets/Bg1.webp); 
+    background-size: cover; 
+    object-fit: contain;
+    background-repeat: no-repeat;
+} */
 p{
     font-family: 'thunder-light';
 
