@@ -81,10 +81,11 @@ function App() {
           <p className='text-white text-xl  pl-1'>SECONDS</p>
         </div>
       </div>
-      <div className='text-white flex items-end justify-center text-center font-bold md:mt-[180px] mt-10'>
-        <h2 className='text-1xl'>The anticipation is electric, the countdown is on...<br></br><h2>Stay charged !<br></br>Dhishna, the official tech fest of SOE, CUSAT is scheduled to be held on Nov 24, 25 & 26</h2></h2> 
-        {/* <h2 className='text-1xl'>
-          After a 4 year hiatus, South India's largest techfest, Dhishna is back. Get ready for a tech-fueled thrill ride on November 24, 25, 26.</h2> */}
+      <div className='text-white flex items-end justify-center text-center font-bold md:mt-[150px] mt-10'>
+        <h2 className='text-1xl'>The anticipation is electric, the countdown is on...<br></br><h2>Stay charged !</h2></h2> 
+      </div>
+      <div className='text-white flex items-end justify-center text-center font-black mt-8'>
+        <h4 className='text-lg'>Dhishna, the official tech fest of SOE, CUSAT is scheduled to be held on Nov 24, 25 & 26</h4>
       </div>
       {/* <div className='flex items-center justify-center mt-[80px]'>
         <h1 className='text-white text-2xl'>ABOUT</h1>

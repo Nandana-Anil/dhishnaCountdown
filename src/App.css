@@ -32,6 +32,11 @@
     /* You can specify additional font formats (e.g., woff, woff2) for better browser compatibility */
 }
 
+@font-face {
+    font-family: 'satoshi2';
+    src: url("./fonts/Satoshi-BlackItalic.ttf") format('truetype');
+    /* You can specify additional font formats (e.g., woff, woff2) for better browser compatibility */
+}
 
 
 
@@ -76,6 +81,10 @@ h2{
 h1{
     font-family: 'Gabarito', cursive;
     
+}
+
+h4{
+    font-family: 'satoshi2', serif;
 }
 
   
