@@ -70,10 +70,6 @@ p{
     /* color: linear-gradient(to right,#d81dad, #e65b0b); */
  } 
 
-h3{
-    font-family: 'Josefin Slab', serif;
-}
-
 h2{
     font-family: 'satoshi', serif;
 }
@@ -84,6 +80,10 @@ h1{
 }
 
 h4{
+    font-family: 'satoshi2', serif;
+}
+
+li{
     font-family: 'satoshi2', serif;
 }
 
